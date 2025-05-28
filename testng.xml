@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Maps API Automation Suite" verbose="1" parallel="false">
+    <test name="Place API Test Scenarios">
+        <classes>
+            <class name="tests.PlaceTests"/>
+        </classes>
+    </test>
+</suite>
