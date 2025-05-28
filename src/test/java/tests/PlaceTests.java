@@ -45,9 +45,9 @@ public class PlaceTests extends BaseTest {
         PlaceAPI.getPlace(placeId)
                 .then().log().all()
                 .statusCode(200)
-                .body("name", equalTo("Frontline house"))
+                .body("name", equalTo("Dream works house"))
                 .body("address", equalTo("29, side layout, cohen 09"))
-                .body("language", equalTo("French-IN"));
+                .body("language", equalTo("Telugu-IN"));
     }
 
     @Test (priority = 3, dependsOnMethods = "testGetPlace")
