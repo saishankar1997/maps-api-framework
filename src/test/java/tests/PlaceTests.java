@@ -18,12 +18,12 @@ public class PlaceTests extends BaseTest {
     public void testAddPlace() {
         AddPlace place = new AddPlace();
         place.setAccuracy(50);
-        place.setName("Frontline house");
+        place.setName("Dream works house");
         place.setPhone_number("(+91) 983 893 3937");
         place.setAddress("29, side layout, cohen 09");
         place.setWebsite("http://google.com");
-        place.setLanguage("French-IN");
-        place.setTypes(Arrays.asList("shoe park", "shop"));
+        place.setLanguage("Telugu-IN");
+        place.setTypes(Arrays.asList("National park", "Park"));
 
         AddPlace.Location location = new AddPlace.Location();
         location.setLat(-38.383494);
